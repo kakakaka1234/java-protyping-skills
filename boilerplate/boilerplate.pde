@@ -9,3 +9,4 @@ ellipse(width/3,height/3,width/75,width/75);
 ellipse(width/3,height/2,width/75,width/75);
 fill(#35E513);
 ellipse(width/2,height/4,width/75,width/75);
+ellipse(width*3/4,height/2,width/50,width/50);
