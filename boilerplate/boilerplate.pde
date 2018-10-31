@@ -1,5 +1,5 @@
 //Global Variables
-color yellow = #F8FAA9;
+color skin = #F8FAA9;
 color black = #0A0A0A;
 color orange= #DE7607;
 color blue=#392CB7;
@@ -29,6 +29,7 @@ triangle(width/2,height/3,width*3/4,height*2/3,width/4,height*2/3);
 }
 
 void draw(){
+  quitbuttondraw();
   fill(#392CB7);
   strokeWeight(1);  
   
@@ -46,4 +47,7 @@ fill(#080807);
 line(width/4, height*3/4, width*3/4, height*3/4);
 fill(orange);
 triangle(width/2,height/3,width*3/4,height*2/3,width/4,height*2/3);
+}
+void mouseClicked(){
+  quitbuttonmouseclicked();
 }
